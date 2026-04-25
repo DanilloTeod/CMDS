@@ -252,7 +252,7 @@ while any(p['yp'] > 0 for p in falling_particles):
             points[part_id] = (xf, yf, r2)
             collision_tracker[part_id] = []  # limpa para o próximo frame
             
-    #feracao de frames
+    # feracao de frames
     fig, ax = plt.subplots(figsize=(6, 6))
     ax.set_xlim(0, limit_x)
     ax.set_ylim(0, limit_y)
